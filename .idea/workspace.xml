@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="39daa8e1-4ace-4f47-8441-afe0271a742e" name="Changes" comment="Initial Angular comit">
       <change afterPath="$PROJECT_DIR$/angular-showcase/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-showcase" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-showcase/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-showcase/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-showcase/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/package-lock.json" afterDir="false" />
@@ -40,7 +42,7 @@
     &quot;Karma.App.executor&quot;: &quot;Run&quot;,
     &quot;Karma.Global test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.karma.karma_node_package_dir&quot;: &quot;C:/Users/Kristaps/AppData/Roaming/npm/node_modules/@angular/cli&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Kristaps/Desktop/Github/angular-showcase/angular-showcase/.vscode/launch.json&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -135,6 +137,8 @@
       <workItem from="1751745406610" duration="2625000" />
       <workItem from="1752009360125" duration="587000" />
       <workItem from="1752009959482" duration="245000" />
+      <workItem from="1752437570626" duration="265000" />
+      <workItem from="1752437844360" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Angular commit">
       <option name="closed" value="true" />
