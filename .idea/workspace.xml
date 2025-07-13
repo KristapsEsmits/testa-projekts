@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39daa8e1-4ace-4f47-8441-afe0271a742e" name="Changes" comment="Initial Angular comit">
-      <change afterPath="$PROJECT_DIR$/angular-showcase/karma.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-showcase" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-showcase/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-showcase/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-showcase/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-showcase/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-showcase/src/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/src/app/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-showcase/src/app/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/src/app/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-showcase/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-showcase/src/app/app.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/src/app/app.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-showcase/src/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/src/app/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-showcase/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-showcase/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-showcase" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,29 +25,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Karma.App (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karma.App.executor&quot;: &quot;Run&quot;,
-    &quot;Karma.Global test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.karma.karma_node_package_dir&quot;: &quot;C:/Users/Kristaps/AppData/Roaming/npm/node_modules/@angular/cli&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kristaps/Desktop/Github/angular-showcase/angular-showcase/.vscode/launch.json&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.Angular.executor&quot;: &quot;Run&quot;,
-    &quot;npm.run.executor&quot;: &quot;Run&quot;,
-    &quot;npm.test.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Kristaps\\Desktop\\Github\\angular-showcase\\angular-showcase\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Karma.App (1).executor": "Run",
+    "Karma.App.executor": "Run",
+    "Karma.Global test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.karma.karma_node_package_dir": "C:/Users/Kristaps/AppData/Roaming/npm/node_modules/@angular/cli",
+    "last_opened_file_path": "C:/Users/Kristaps/Desktop/Github/angular-showcase/angular-showcase/.vscode/launch.json",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.Angular.executor": "Run",
+    "npm.run.executor": "Run",
+    "npm.test.executor": "Run",
+    "settings.editor.selected.configurable": "Errors",
+    "ts.external.directory.path": "C:\\Users\\Kristaps\\Desktop\\Github\\angular-showcase\\angular-showcase\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="npm.test">
     <configuration name="App" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
       <config-file value="$PROJECT_DIR$/angular-showcase/karma.conf.js" />
@@ -139,6 +129,7 @@
       <workItem from="1752009959482" duration="245000" />
       <workItem from="1752437570626" duration="265000" />
       <workItem from="1752437844360" duration="72000" />
+      <workItem from="1752437922845" duration="438000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Angular commit">
       <option name="closed" value="true" />
@@ -148,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752009429505</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Angular comit">
+      <option name="closed" value="true" />
+      <created>1752438069465</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752438069465</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +172,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Angular commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Angular commit" />
+    <MESSAGE value="Initial Angular comit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Angular comit" />
   </component>
 </project>
