@@ -1,0 +1,151 @@
+:host {
+    .card-container {
+        display: flex;
+        margin: 20px;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+
+        .effect1 {
+            --color1: rgb(0, 231, 255);
+            --color2: rgb(255, 0, 231);
+        }
+
+        .effect2 {
+            --color1: #54a29e;
+            --color2: #a79d66;
+        }
+
+        img {
+            user-select: none;
+        }
+    }
+
+    .holo-card {
+        user-select: none;
+        width: min(360px, 78vw);
+        aspect-ratio: 0.716 / 1;
+        border-radius: 5% / 3.5%;
+        position: relative;
+        overflow: hidden;
+        isolation: isolate;
+        -webkit-tap-highlight-color: transparent;
+        touch-action: none;
+
+        // “live” variables driven by TS
+        --rx: 0deg; // rotateX
+        --ry: 0deg; // rotateY
+        --mx: 50%; // pointer x in %
+        --my: 50%; // pointer y in %
+        --lift: 0; // 0..1 hover lift
+
+        --front: none;
+        --color1: rgb(0, 231, 255);
+        --color2: rgb(255, 0, 231);
+
+        background-color: #040712;
+        background-image: var(--front);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+
+        transform-style: preserve-3d;
+        transform: perspective(900px) rotateX(var(--rx)) rotateY(var(--ry)) translateY(calc(-10px * var(--lift)));
+        transition: transform 220ms ease, box-shadow 220ms ease, filter 220ms ease;
+
+        box-shadow: -5px -5px 10px -8px var(--color1),
+        5px 5px 10px -8px var(--color2),
+        0 25px 35px -18px rgba(0, 0, 0, 0.65);
+
+        &:hover {
+            box-shadow: -18px -18px 28px -25px var(--color1),
+            18px 18px 28px -25px var(--color2),
+            -8px -8px 14px -12px var(--color1),
+            8px 8px 14px -12px var(--color2),
+            0 0 18px 2px rgba(255, 255, 255, 0.18),
+            0 35px 45px -22px rgba(0, 0, 0, 0.65);
+        }
+
+        // sheen + sparkle layers
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            transition: opacity 220ms ease, filter 220ms ease, background-position 60ms linear;
+        }
+
+        &::before {
+            z-index: 1;
+            opacity: 0.55;
+            mix-blend-mode: color-dodge;
+            background-size: 260% 260%;
+            background-position: var(--mx) var(--my);
+            background-image: linear-gradient(
+                    115deg,
+                    transparent 0%,
+                    var(--color1) 25%,
+                    transparent 47%,
+                    transparent 53%,
+                    var(--color2) 75%,
+                    transparent 100%
+            );
+            filter: brightness(0.75) contrast(1.05);
+        }
+
+        &::after {
+            z-index: 2;
+            opacity: 0.75;
+            mix-blend-mode: color-dodge;
+
+            background-image: url("https://assets.codepen.io/13471/sparkles.gif"),
+            url("https://assets.codepen.io/13471/holo.png"),
+            linear-gradient(
+                    125deg,
+                    rgba(255, 0, 132, 0.28) 15%,
+                    rgba(252, 164, 0, 0.22) 30%,
+                    rgba(255, 255, 0, 0.18) 40%,
+                    rgba(0, 255, 138, 0.14) 60%,
+                    rgba(0, 207, 255, 0.22) 70%,
+                    rgba(204, 76, 250, 0.28) 85%
+            );
+
+            background-size: 160%;
+            background-position: calc(var(--mx) * 1) calc(var(--my) * 1);
+            background-blend-mode: overlay;
+            filter: brightness(1.05) contrast(1.05);
+        }
+
+        .holo-card__content::before {
+            content: "";
+            position: absolute;
+            inset: -30%;
+            z-index: 0;
+            background: radial-gradient(
+                    220px 180px at var(--mx) var(--my),
+                    rgba(255, 255, 255, 0.25) 0%,
+                    rgba(255, 255, 255, 0.08) 22%,
+                    rgba(255, 255, 255, 0) 60%
+            );
+            transform: translateZ(1px);
+            opacity: calc(0.25 + (0.55 * var(--lift)));
+            transition: opacity 220ms ease;
+            pointer-events: none;
+        }
+
+        &.is-active {
+            --lift: 1;
+
+            &::before {
+                opacity: 0.85;
+                filter: brightness(0.9) contrast(1.25);
+            }
+
+            &::after {
+                opacity: 1;
+                filter: brightness(1.1) contrast(1.1);
+            }
+        }
+    }
+}

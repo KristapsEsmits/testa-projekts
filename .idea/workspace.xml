@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39daa8e1-4ace-4f47-8441-afe0271a742e" name="Changes" comment="Initial Angular comit">
+    <list default="true" id="39daa8e1-4ace-4f47-8441-afe0271a742e" name="Changes" comment="Rebuild - starting point?">
+      <change afterPath="$PROJECT_DIR$/src/assets/charizard-gx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pikachu-gx.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-showcase" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +48,21 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "npm.Angular CLI Server.executor": "Run",
     "npm.Angular.executor": "Run",
     "npm.run.executor": "Run",
     "npm.test.executor": "Run",
     "settings.editor.selected.configurable": "Errors",
-    "ts.external.directory.path": "C:\\Users\\Kristaps\\Desktop\\Github\\angular-showcase\\angular-showcase\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\Kristaps\\Desktop\\Github\\angular-showcase\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kristaps\Desktop\Github\angular-showcase\src\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="App" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
       <config-file value="$PROJECT_DIR$/angular-showcase/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/angular-showcase/node_modules/@angular/cli" />
@@ -68,6 +81,26 @@
       <karma-options value="--include src/app" />
       <karma-package-dir value="$PROJECT_DIR$/angular-showcase/node_modules/@angular/cli" />
       <working-directory value="$PROJECT_DIR$/angular-showcase" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests (angular-showcase)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
@@ -93,8 +126,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="Karma.Tests (angular-showcase)" />
       <item itemvalue="Karma.App" />
       <item itemvalue="Karma.Global test" />
+      <item itemvalue="npm.Angular CLI Server" />
       <item itemvalue="npm.Angular" />
       <item itemvalue="npm.test" />
     </list>
@@ -130,6 +166,8 @@
       <workItem from="1752437570626" duration="265000" />
       <workItem from="1752437844360" duration="72000" />
       <workItem from="1752437922845" duration="438000" />
+      <workItem from="1752438372181" duration="675000" />
+      <workItem from="1768509648795" duration="5830000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Angular commit">
       <option name="closed" value="true" />
@@ -147,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752438069465</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Rebuild - starting point?">
+      <option name="closed" value="true" />
+      <created>1752438444857</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752438444857</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +219,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Angular commit" />
     <MESSAGE value="Initial Angular comit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Angular comit" />
+    <MESSAGE value="Rebuild - starting point?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebuild - starting point?" />
   </component>
 </project>
