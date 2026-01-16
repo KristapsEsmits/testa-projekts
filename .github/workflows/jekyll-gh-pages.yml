@@ -31,14 +31,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build Angular
+      - name: Build Angular (custom domain)
         run: |
-          npm run build -- --configuration production --base-href /testa-projekts/
+          npm run build -- --configuration production --base-href /
 
-      # ✅ FIX: Angular 17+ output is in /browser
-      - name: Copy index.html to 404.html
+      # Angular 17+ output path fix
+      - name: Copy index.html to 404.html (SPA routing)
         run: |
           cp dist/angular-showcase/browser/index.html dist/angular-showcase/browser/404.html
+
+      # Custom domain for GitHub Pages
+      - name: Add CNAME file
+        run: |
+          echo "kristaps-esmits.id.lv" > dist/angular-showcase/browser/CNAME
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
